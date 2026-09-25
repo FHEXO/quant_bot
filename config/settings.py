@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Conexión Segura con Exness (Nivel de infraestructura)
-ACCOUNT_ID = int(os.getenv("EXNESS_ACCOUNT_ID", 198295201))
+ACCOUNT_ID = int(os.getenv("EXNESS_ACCOUNT_ID", "0"))
 ACCOUNT_PASSWORD = os.getenv("EXNESS_PASSWORD", "")
 ACCOUNT_SERVER = os.getenv("EXNESS_SERVER", "Exness-MT5Trial11")
 
